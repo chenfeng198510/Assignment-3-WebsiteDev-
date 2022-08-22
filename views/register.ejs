@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Registration</title>
+</head>
+
+<body class="bg-light">
+    <header class="bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-dark"><a class="mx-auto navbar-brand"><strong>Class Exercise</strong></a></nav>
+        </div>
+    </header>
+    <main class="container py-5">
+        <form class="border mx-auto p-4 rounded" action="/" method="POST" style="max-width: 512px"><label class="form-label" for="accountname">Account Name</label><input class="form-control form-control-lg" id="accountname" name="accountname" type="text" /><label class="form-label" for="password">Password</label><input class="form-control form-control-lg" id="password" name="password" type="text" /><label class="form-label" for="name">Name</label><input class="form-control form-control-lg" id="name" name="name" type="text" /><label class="form-label" for="Gender">Gender </label><select class="form-label" name="gender" id="gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select><br /><br /><label class="form-label mt-4" for="email">E-Mail</label><input class="form-control form-control-lg" id="email" name="email" type="email" /><label class="form-label mt-4" for="date">Date</label><input class="form-control form-control-lg" id="date" name="date" type="date" /><br /><label class="form-label" for="location">Location</label><input class="form-control for-control-lg" id="location" name="location" type="location" /><br /><label class="form-label" for="Province">Province </label><select class="form-label" name="province" id="province">
+                <option>BC</option>
+                <option>ON</option>
+                <option>NB</option>
+                <option>NS</option>
+                <option>AB</option>
+            </select><input class="btn btn-dark btn-lg mt-4 w-100" type="Submit" /></form>
+    </main>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>
