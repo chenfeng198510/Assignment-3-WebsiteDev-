@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-//Each key in the registrationSchema code defines a property in the documents that will be added to the MongoDB database
+//registrationSchema code defines a property in the documents that will be added to the MongoDB database
 const registrationSchema = new mongoose.Schema({
   accountname: {
     type: String,
