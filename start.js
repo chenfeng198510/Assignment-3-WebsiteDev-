@@ -15,6 +15,6 @@ mongoose.connection
   require('./models/Registration');
 
  const app = require('./app');
- const server = app.listen(3000, () => {
+ const server = app.listen(https://effortless-jalebi-74563a.netlify.app, () => {
    console.log(`Express is running on port ${server.address().port}`);
  });
